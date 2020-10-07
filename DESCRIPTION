@@ -4,7 +4,7 @@ Description: An R package for finding numbers expressible as the sum of
 	two cubes in different ways.
 Version: 0.0.1
 Encoding: UTF-8
-Author: Hervé Pagès <hpages@fredhutch.org>
-Maintainer: Hervé Pagès <hpages@fredhutch.org>
+Author: Hervé Pagès
+Maintainer: Hervé Pagès <hpages.on.github@gmail.com>
 Imports: methods, BiocGenerics, S4Vectors
 License: Artistic-2.0
