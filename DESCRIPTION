@@ -2,7 +2,7 @@ Package: Ramanujan
 Title: 1729 and beyond
 Description: An R package for finding numbers expressible as the sum of
 	two cubes in different ways.
-Version: 0.0.1
+Version: 0.0.2
 Encoding: UTF-8
 Author: Hervé Pagès
 Maintainer: Hervé Pagès <hpages.on.github@gmail.com>

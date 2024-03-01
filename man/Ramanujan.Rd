@@ -48,8 +48,8 @@ Ramanujan(Nmax=2e4, k=2)
 Ramanujan(Nmax=2e8, k=3)
 
 ## Ramanujan(1e13, k=4) will find the 4th taxicab number
-## (6963472309248, denoted Ta(4)) in < 1 minute on a machine
-## with enough RAM (it uses about 10Gb of memory):
+## (6963472309248, denoted Ta(4)) in < 30s on a machine
+## with enough RAM (it uses about 12.5Gb of memory):
 \dontrun{
 Ramanujan(1e13, k=4)
 }

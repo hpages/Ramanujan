@@ -37,7 +37,7 @@ Ramanujan <- function(Nmax, k=2)
 {
     d <- as.integer(Nmax^(1/3))
     s <- seq_len(d)
-    n1 <- S4Vectors:::fancy_mseq(s)
+    n1 <- sequence(s)
     n2 <- rep.int(s, s)
     ## Using x*x*x is about 10x faster than using x^3.
     ## We coerce to numeric to avoid integer arithmetic overflow.
