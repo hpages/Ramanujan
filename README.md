@@ -1,6 +1,6 @@
 **Ramanujan** is an R package for finding numbers expressible as the sum of two cubes in different ways.
 
-```
+```r
 library(Ramanujan)
 
 ## Find numbers <= 2e4 expressible as the sum of two cubes
@@ -11,10 +11,10 @@ Ramanujan(Nmax=2e4, k=2)
 ## in 3 distinct ways:
 Ramanujan(Nmax=2e8, k=3)
 
-## Ramanujan(1e13, k=4) will find the 4th taxicab number
+## Ramanujan(Nmax=1e13, k=4) will find the 4th taxicab number
 ## (6963472309248, denoted Ta(4)) in < 30s on a machine
 ## with enough RAM (it uses about 12.5Gb of memory):
-Ramanujan(1e13, k=4)
+Ramanujan(Nmax=1e13, k=4)
 ```
 
 Links:
